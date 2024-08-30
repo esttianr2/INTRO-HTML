@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="This is the beginning of my coding jouney">
         <meta name="keywords" content="beginner">
+       
 
       </head>
       <body>
@@ -82,6 +83,8 @@
             <button type="submit">Submit</button>
 
           </form>
+          <br>
+          <br>
 
           <table border="1">
             <tr>
@@ -121,5 +124,66 @@
             </tr>
 
           </table>
+          <br>
+          <br>
+          <!--input elements-->
+          <form action="" method="POST/GET">
+            <label for="register-name">NAME:</label>
+            <input type="text" id="register-name" placeholder="Your Name(s)" required>
+            <br>
+            <br>
+            <label for="register-email">EMAIL:</label>
+            <input type="email" id="register-email" placeholder="mail@example.com" required> 
+            <br>
+            <br>
+            <label for="register-country">COUNTRY:</label>
+            <select id="register-country">
+              <option>SA</option>
+              <option>Kenya</option>
+              <option>Tanzania</option>
+              <option>Zimbambwe</option>
+              <option>Uganda</option>
+              <option>Lesotho</option>
+              <option>Somalia</option>
+              <option>Egypt</option>
+              <option>Burundi</option>
+
+            </select>
+            <br>
+            <br>
+           
+            <p>Select Gender</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br>
+            <label for="profile-image">Select File</label>
+            <input type="file" id="profile-image" accept=".docx" required>
+            <br>
+            <p>Accept Terms and conditions</p>
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I accept</label>
+            <br>
+            <br>
+            <button type="submit" > Submit</button>
+            <br>
+            <br>
+            <button type="reset">Reset</button>
+            <br>
+
+          </form>
+          <body>
+            <!--adding a link to an image to open in a new tab add target title appears when you hover over the image or text-->
+            <!--relative path of the webpage-->
+            <a href="selflearn.html" target="_self" title="evening">
+                
+                <img src="evening.jpg" alt=" beautiful evening" height="500">
+        
+            </a>
+            <!--adding a line break use hr, break or space between lines us br-->
+            <hr>
       </body>
+
 </html>
